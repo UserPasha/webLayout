@@ -1,0 +1,17 @@
+body{
+    background-color: rgb(148, 232, 243);
+}
+h1, h3, p, .container {
+    text-align: center;
+}
+h1{
+    font-size: 60px;
+}
+img, a{
+    margin:0 auto;
+}
+p{
+    font-weight: 700;
+    font-size: 24px;
+    font-style: italic;
+}

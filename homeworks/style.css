@@ -1,0 +1,16 @@
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+    font-size: 20px;
+}
+h1, h2{
+    text-align: center;
+}
+.italic{
+    font-style: italic;
+}
+img{
+    display: block;
+    width: 600px;
+    margin: 0 auto;
+}

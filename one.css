@@ -1,0 +1,87 @@
+*{
+    box-sizing: border-box;
+}
+.wrapper{
+    width: 1200px;
+    margin: 0 auto;
+}
+.title{
+    text-align: center;
+}
+.title-1{
+    font-size: 50px;
+    border-color: #fff;
+    padding: 10px 0;
+    margin: 25px 0;
+    position: sticky;
+    top:0; 
+    z-index: 1;
+    transition: all 0.5s;
+}
+.title-1:hover{
+    color:#ccc
+}
+.title-1::before,
+.title-1::after{
+    content: "";
+    width: 50px;
+    height: 50px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    background-color: #ccc;
+    position: absolute;
+    left: 0;
+}
+.title-1::after{
+    left: auto;
+    right: 0;
+}
+.text-1{
+    font-size: 22px;
+    background-color: #ccc;
+}
+.text-2{
+    font-size: 18px;
+    background-color: #ccc;
+}
+.relate{
+    width: 800px;
+    height: 400px;
+    background-color: #ccc;
+    border: 2px solid black ;
+    position: relative;
+}
+.text{
+    width: 200px;
+    padding: 20px;
+    background-color: black;
+    color: #fff;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+.text:hover{
+    background-color: #fff;
+    color: #000; 
+}
+.text-3{
+    text-align: right;
+}
+.text-4{
+    font-size: 14px;
+   font-style: italic;
+}
+.forImage{
+ overflow: hidden;
+}
+.forImage .image{
+    display: block;
+    transition: 1s;
+}
+.image:hover{
+    transform: scale(1.3);  
+}
+.imageTwo:hover{
+    transition: 1s;
+    transform: translateY(-50px);
+}
