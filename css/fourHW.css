@@ -166,5 +166,130 @@ body {
 
 .school__inner_info {
     display: flex;
+    align-items: flex-start;
+    justify-content: space-evenly;
     padding-top: 100px;
+    position: relative;
+}
+
+.school__inner_info__item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 350px;
+}
+
+.school__inner_info__title {
+    max-width: 160px;
+    min-height: 55px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.6px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.school__inner_info__item p {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0.6px;
+}
+
+.title_and_img{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.school__inner_stats{
+    margin-top: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.school__inner_stats__waves{
+    height: 40px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.long__waves{
+    margin-top: 15px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+.long__waves__wave{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.long__waves__wave p{
+    margin-left: 10px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.6px;
+}
+.school__inner_stats__text{
+    max-width: 600px;
+}
+.school__inner_stats__text--text{
+    margin-top: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0.6px;
+}
+.rise__top{
+    width: 100%;
+    min-height: 100vh;
+    background-color: #FFF;
+    background-image: url('./../images/riseSerfer.svg');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right 0%;
+}
+.rise__top__wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.rise__top__wrapper__info{
+    margin-right: auto;
+    padding-left: 300px;
+}
+.rise__top__wrapper__info__container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.rise__top__wrapper__info__container__item{
+    width: 500px;
+    margin-top: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    letter-spacing: 0.6px;
+}
+.rise__top__wrapper__image{
+    width: 960px;
+    height: 850px;
+    background-image: url('./../images/riseSerfer.svg');
+    background-position: right;
+}
+@media screen and (max-width: 1300px){
+    .rise__top__wrapper__info{
+        padding-left: 40px;
+    }
 }
