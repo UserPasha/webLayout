@@ -251,6 +251,146 @@ body {
     margin-bottom: 25px;
 }
 
-.title__magic{
+.title__magic {
     margin-bottom: 67px;
+}
+
+.portfolio {
+    padding: 140px 0 165px;
+}
+
+.portfolio__top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+.portfolio__top__buttons{
+    margin-right: 40px;
+}
+
+.portfolio__top__button{
+    background-color: transparent;
+    border: none;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 24px;
+    color: #333;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 0 4px 5px;
+    margin-right: 25px;
+    cursor: pointer;
+    outline: none;
+}
+
+.mixitup-control-active{
+    border-bottom: 1px solid #fcbb08;
+}
+
+.portfolio__gallery {
+    column-count: 4;
+    column-gap: 22px;
+}
+.portfolio__gallery__item {
+    margin-bottom: 22px;
+    position: relative;
+}
+
+.portfolio__gallery__item-link{
+    position: absolute;
+    inset: 0;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #4C4A4A;
+    border: 12px solid #666565;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    opacity: 0;
+    transition: all 0.3s;
+}
+
+.portfolio__gallery__item:hover .portfolio__gallery__item-link{
+    opacity: 1;
+}
+
+.portfolio__gallery__item img {
+    width: 100%;
+}
+
+.portfolio__add {
+    display: block;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17.07px;
+    letter-spacing: 1.2px;
+    text-align: center;
+    text-decoration: none;
+    color: #242121;
+    padding: 42px 15px 41px;
+    background-color: #F6F8FA;
+    margin-bottom: 130px;
+}
+
+.blockquote {
+    max-width: 650px;
+    margin: 0 auto 148px;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-style: italic;
+    font-weight: 300;
+    font-style: 18px;
+    line-height: 36px;
+    color: #242121;
+}
+
+.blockquote__author {
+    padding-top: 51px;
+    display: block;
+    color: #9e9e9e;
+    font-style: 14px;
+    line-height: 32px;
+}
+
+.portfolio__video {
+    background-image: url('./../images/video.jpg');
+    height: 324px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 165px;
+}
+
+.porfolio__scores {
+    display: flex;
+    justify-content: space-around;
+}
+
+.portfolio__scores__item {
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 73px;
+    color: #242121;
+}
+
+.portfolio__scores__item span {
+    display: block;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 19px;
+    color: #333;
 }
